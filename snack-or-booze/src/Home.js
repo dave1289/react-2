@@ -17,4 +17,6 @@ function Home({ snacks, drinks }) {
   );
 }
 
+
+
 export default Home;

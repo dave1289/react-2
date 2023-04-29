@@ -12,7 +12,6 @@ import {
 } from "reactstrap";
 import AddFood from "./AddFood";
 
-
 // FoodMenu now accepts type to create entries for drinks and snacks
 // by changing tpye it alters what type of food item you are pulling and displaying
 // creating functionality to pull snacks and drinks from the same component.
