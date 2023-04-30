@@ -23,12 +23,20 @@ class SnackOrBoozeApi {
    return result.data;
   }
 
-  static async addSnack() {
-   
+  static async addSnack(snack) {
+   axios({
+      method: 'post',
+      url: `${BASE_API_URL}/snacks`,
+      data : snack
+   })
   }
 
-  static async addDrink() {
-
+  static async addDrink(drink) {
+   axios({
+      method: 'post',
+      url: `${BASE_API_URL}/drinks`,
+      data : drink
+   })
   }
 }
 
